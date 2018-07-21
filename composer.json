@@ -1,0 +1,16 @@
+{
+    "name":"urfinjuezz/bcmathhelper",
+    "require":{
+        "php":">=7.1.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "urfinjuezz\\BCMathHelper\\":        "src/",
+            "urfinjuezz\\Tests\\": "tests/"
+        }
+    }
+
+}
